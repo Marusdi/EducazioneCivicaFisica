@@ -24,7 +24,7 @@
         body{
             background: url("https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1567&q=80") center center/cover no-repeat ;
         }
-        #water {
+        #titolo {
             text-align: center;
             font-size: 70px;
             margin-top: 0;
@@ -55,18 +55,32 @@
             opacity: 100%;
             padding: 3%;
         }
-        
-        img{
-            height: auto;
-            width: 200px;
-            margin-left: 20%;
-            margin-bottom: auto;
-            float: left;
+            
+        #gif1{
+            float: right;
+            margin-right: 10%;
         }
+        #gif2{
+            float: left;
+            margin-left: 10%;
+        }
+        #gif3{
+            float: right;
+            margin-right: 15%;
+        }
+
+        .gif{
+            width: 200px;
+        }
+        .gif:hover{
+            width: 300px;
+            transition: 3s;
+        }
+ 
     </style>
 </head>
 <body>
-    <section id="water">
+    <section id="titolo">
         <h1>ENERGIA DEL MARE</h1>
     </section>
     <section id="paragrafo-intro">
@@ -77,21 +91,25 @@
             diverse tipologie di sfruttamento
         </p>
     </section>
-    <section class="section" id="redirecters">
-        <div id="link1" class="link" style="margin-left: 25%;">
+    <section>
+        <div class="link" style="margin-left: 25%;">
             <a href="maree.html">maree</a>
         </div>
-        <div id="link2" class="link" style="margin-left: 65%;">
+
+        <img class="gif" id="gif1" src="https://www.gifanimate.com/data/media/194/pesce-immagine-animata-0018.gif">
+
+        <div class="link" style="margin-left: 65%;">
             <a href="onde.html">onde</a>
         </div>
-        <img src="https://www.gifanimate.com/data/media/194/pesce-immagine-animata-0023.gif" >
-        <div id="link3" class="link" style="margin-left: 40%;">
+
+        <img class="gif" id="gif2" src="https://www.gifanimate.com/data/media/194/pesce-immagine-animata-0023.gif" >
+
+        <div class="link" style="margin-left: 40%;">
             <a href="correnti.html">correnti</a>
         </div>
     </section>
-    <img src="https://www.gifanimate.com/data/media/194/pesce-immagine-animata-0018.gif" >
-   
-    <img src="https://www.gifanimate.com/data/media/194/pesce-immagine-animata-0316.gif">
-
+    
+    <img class="gif" id="gif3" src="https://www.gifanimate.com/data/media/194/pesce-immagine-animata-0316.gif">
+    
 </body>
 </html>
